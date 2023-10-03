@@ -1,5 +1,5 @@
 const cleanSet = (set, startString) => {
-  let resultArray = [];
+  const resultArray = [];
 
   const arr = Array.from(set);
 
