@@ -7,6 +7,7 @@ describe('API integration test', () => {
   it('test response status code of GET/ of the API', (done) => {
     request.get(`${url}/`, (err, res, body) => {
       expect(res.statusCode).to.equal(200);
+      expect(body).to.be.equal('Welcome to the payment system'); 
       done();
     });
   });
