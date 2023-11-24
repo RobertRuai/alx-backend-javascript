@@ -35,5 +35,5 @@ describe('API integration test', () => {
       expect(res.statusCode).to.equal(404);
       done();
     });
-  })
+  });
 });
